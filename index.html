@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8">
   <title>Philip Conte</title>
@@ -8,28 +7,42 @@
   <style type="text/css">
     body {
       line-height: 1.5;
-      margin-left: 3.5em;
-      margin-right: 2em;
-      max-width: 50em;
-      background-color: #2b3137;
-      color: #f2f2f2;
+      background-color: #131415;
+      color: #d9d9d9;
       font-family: Optima, Candara, times new roman, sans-serif;
     }
 
-    a {
-      color: aqua
+    main {
+      margin-left: 3.5em;
+      margin-right: 2em;
+      max-width: 50em;
     }
 
-    h1,
-    h2,
-    h3 {
-      font-family: Futura, helvetica, verdana, sans-serif;
+    a {
+      color: #1c9de6;
+    }
+
+    h2 {
+      font-family: Futura, helvetica, sans-serif;
       text-align: left;
       font-weight: normal;
     }
 
+    footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+
+    footer > p {
+      font-size: small;
+      text-align: center;
+      padding: 2em 2em;
+    }
+
     @media screen and (max-width: 600px) {
-      body {
+      main {
         margin-left: 0.4em;
         margin-right: 0.2em;
         max-width: 100%;
@@ -39,16 +52,22 @@
 </head>
 
 <body>
-  <h2>My name is Philip Conte</h2>
-  <p>
-    I'm a first generation Haitian-Danish American.
-    I'm currently a student at Virginia Tech.
-    I love automating people's tasks so they can do better things.
-  </p>
-  <p>My email address is <a href="mailto:pconte@vt.edu">pconte@vt.edu</a>.</p>
-  <p>I've written a <a href="http://distributions.pconte.me">grade distribution viewer</a>.</p>
-  <p>You can look at some of my other code on <a href="https://github.com/PhilipConte/">my GitHub</a>.</p>
-  <p>You can find my resumé on <a href="https://www.linkedin.com/in/philipmconte/">my Linkedin</a>.</p>
+  <main>
+    <h2>My name is Philip Conte</h2>
+    <p>I'm currently a senior in CS at Virginia Tech</p>
+    <p>I'm the president of the Linux and Unix Users Group at Virginia Tech</p>
+    <p>I'm most interested in (operating-)systems-esque things and would love an opportunity to work with Rust</p>
+    <p>I love automating tasks so people are free to do better things</p>
+    <p>Backend web development can be alright, but I just can't bring myself to work in frontend full time</p>
+    <p>My email address is <a href="mailto:philip@pconte.me">philip@pconte.me</a></p>
+    <p>I've written a <a href="http://distributions.pconte.me">grade distribution viewer</a></p>
+    <p>You can look at some of my other code on my <a href="https://github.com/PhilipConte/">GitHub</a></p>
+    <p>You can find my resumé on my <a href="https://www.linkedin.com/in/philipmconte/">Linkedin</a></p>
+  </main>
+  <footer>
+    <p>
+      Are you an equal opportunity employer? I'm a first generation Haitian-Danish American. English is my third language. I have a mild case of cerebral palsy.
+    </p>
+  </footer>
 </body>
-
 </html>
